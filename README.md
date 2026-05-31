@@ -28,9 +28,8 @@ wifi-touchless-hmi/
 │   ├── circuit_diagram.md    # Pin connections and wiring guide
 │   └── components_list.md    # Bill of materials
 ├── docs/
-│   └── working_principle.md  # Detailed system explanation
-├── images/                   # Circuit photos / demo screenshots
-└── README.md
+    └── working_principle.md  # Detailed system explanation
+
 ```
 
 ---
@@ -92,19 +91,13 @@ wifi-touchless-hmi/
 
 ---
 
-## 📸 Demo
-
-> *Add photos of your hardware setup and a screenshot of the web interface here*
-
----
-
-## 📄 License
+## License
 
 MIT License — free to use, modify, and distribute with attribution.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Aditi S Puranik**  
 B.E. Electronics & Communication Engineering  
