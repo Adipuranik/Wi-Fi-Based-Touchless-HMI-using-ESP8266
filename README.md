@@ -1,10 +1,10 @@
-# 📡 Wi-Fi Based Touchless HMI using ESP8266
+#  Wi-Fi Based Touchless HMI using ESP8266
 
 A wireless Human-Machine Interface (HMI) built on the NodeMCU ESP8266 that enables smartphone-controlled, touchless menu navigation over Wi-Fi — no physical buttons required.
 
 ---
 
-## 🔧 Hardware Used
+##  Hardware Used
 
 | Component | Specification |
 |-----------|--------------|
@@ -16,7 +16,7 @@ A wireless Human-Machine Interface (HMI) built on the NodeMCU ESP8266 that enabl
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 wifi-touchless-hmi/
@@ -35,7 +35,7 @@ wifi-touchless-hmi/
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. ESP8266 boots and connects to a configured Wi-Fi network
 2. An onboard HTTP web server starts and serves a control interface
@@ -46,7 +46,7 @@ wifi-touchless-hmi/
 
 ---
 
-## 🗂️ Features
+##  Features
 
 - **Touchless operation** — ideal for hygiene-sensitive or industrial environments
 - **Real-time LCD feedback** — menu updates instantly on command receipt
@@ -56,7 +56,7 @@ wifi-touchless-hmi/
 
 ---
 
-## 🔌 Pin Configuration
+##  Pin Configuration
 
 | ESP8266 Pin | Connected To |
 |-------------|-------------|
@@ -68,7 +68,7 @@ wifi-touchless-hmi/
 
 ---
 
-## 💻 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Arduino IDE 1.8.x or 2.x
@@ -78,24 +78,7 @@ wifi-touchless-hmi/
   - `ESP8266WebServer`
   - `LiquidCrystal_I2C`
 
-### Upload Steps
-1. Clone this repository
-   ```bash
-   git clone https://github.com/Adipuranik/wifi-touchless-hmi.git
-   ```
-2. Open `src/hmi_main.ino` in Arduino IDE
-3. Update your Wi-Fi credentials in the config section:
-   ```cpp
-   const char* ssid = "YOUR_WIFI_SSID";
-   const char* password = "YOUR_WIFI_PASSWORD";
-   ```
-4. Select board: **NodeMCU 1.0 (ESP-12E Module)**
-5. Select correct COM port and upload
 
-### Usage
-1. After upload, open Serial Monitor (115200 baud) to get the assigned IP address
-2. Open that IP in your phone browser on the same Wi-Fi network
-3. Use the web interface buttons to navigate the LCD menu
 
 ---
 
